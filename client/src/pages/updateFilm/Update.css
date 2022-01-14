@@ -1,0 +1,13 @@
+.avatar1{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    object-fit:cover;
+    border:2px solid rgb(197, 197, 197)
+}
+
+Form{
+    width:45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }

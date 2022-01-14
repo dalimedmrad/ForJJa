@@ -1,0 +1,59 @@
+.Movie{
+    padding-top: 5%;    
+    align-items: center;
+    padding-bottom: 7%;
+    background-color: rgb(29, 28, 28);
+
+}
+iframe{
+    width: 70%;
+    margin: 8% auto;
+    margin-bottom: 6%!important;
+}
+.name1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px!important;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.trajet-card1{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 8px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 400px;
+}
+.image1{
+    width: 350px;
+    height: 100%!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trajet-body1{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.trajet-row1{
+    margin-top: 20px;
+    width: 440px;
+} 
+.trajet-row1 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+.trajet-action1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

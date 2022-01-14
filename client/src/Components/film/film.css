@@ -1,0 +1,176 @@
+/* .card {
+  margin: 2%;
+  width: 280px;
+  height: 360px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5); 
+}
+.card:hover {
+  transform: translateY(20px); 
+}
+
+.card:hover:before {
+  opacity: 1; 
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0px); 
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0; 
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px; 
+}
+
+.card .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s; 
+}
+
+.card .info h1 {
+  margin-right: 3%; 
+}
+
+.card .info p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px; 
+}
+
+.card .info button {
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease; 
+}
+
+.card .info button:hover {
+  background: dodgerblue;
+  color: white;
+}
+  
+
+/* .crd{
+  margin: 2%;
+}
+.crd:hover{
+  transform: scale(1.025);
+  transition-duration: 0.6s;
+  box-shadow: -13px 9px 13px 0px rgba(171,129,129,0.84);
+} */
+           
+
+.cardi { 
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -2px 8px 23px -11px rgba(0, 0, 0, 0.75);
+}
+.cardi .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.cardi:hover > .overlay {
+  display: block;
+  transition-duration: 0.8s;
+}
+.cardi:hover > img {
+  width: 105%;
+  transition: ease-in-out 0.3s;
+}
+.cardi img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cardi .overlay .contenu {
+  opacity: 1 !important;
+  z-index: 9999;
+}
+
+.cardi .overlay .contenu i {
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 33%;
+  font-size: 5em;
+}
+.cardi .overlay .contenu i:hover {
+  color: orange;
+}
+.cardi .overlay .contenu span {
+  background-color: orange;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.cardi h3 {
+  position: absolute;
+  bottom: -15px;
+  color: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+}

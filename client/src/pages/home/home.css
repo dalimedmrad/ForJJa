@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+/* body {
+    background-color: #f3f6fd;
+    font-size: 11.5px;
+    font-weight: bold;
+    color: rgb(189, 196, 203)
+} */
+.bod{
+    background-color: rgb(29, 28, 28);
+    font-size: 12.5px;
+    font-weight: bold;
+    color: rgb(189, 196, 203)
+}
+/* caroussel */
+  .containera {
+    position: relative;
+    width: 320px;
+    margin: 0 auto 8% auto;
+    padding-top: 6%;
+    perspective: 1000px;
+    height: 300px;
+  }
+  .carousel {
+    position: absolute;
+    width: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  
+  .spana {
+    margin: auto;
+    font-size: 2rem;
+  }
+  .carousel__face:nth-child(1) {
+    background-image: url("https://image.shutterstock.com/image-photo/cinema-theater-auditoriumbusiness-background-600w-439545145.jpg");
+    transform: rotateY(  0deg) translateZ(450px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://image.shutterstock.com/image-illustration/relax-moon-yellow-clouds-formation-600w-596339384.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://images.unsplash.com/photo-1618316224214-a5bac0651def?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGxpYnJhcnl8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://image.shutterstock.com/image-photo/camera-lens-on-background-blurry-600w-378432508.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://image.shutterstock.com/image-vector/video-tutorial-icon-emblem-label-600w-1912216588.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://images.unsplash.com/photo-1620217852034-d045f05ec5e8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGJvb2t8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://image.shutterstock.com/image-photo/uzhgorod-ukraine-october-19-2021-600w-2060384453.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://images.unsplash.com/photo-1617932213915-509777a919f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGJvb2t8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://images.unsplash.com/photo-1522008250122-19c4add9df75?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyZWFkfGVufDB8MHwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+.ya1{
+  margin: 0% 0;
+  height: 20px;
+  background-color: black;
+}
+
+.child img{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  /* -webkit-mask-image: linear-gradient(black); */
+  mask-image: linear-gradient(rgba(0,0,0,1) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+  /* background-image: linear-gradient(to bottom,rgba(0,0,0,1) 0,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%); */
+
+}
+.spn{
+  height: 20px!important;
+  flex-direction: column;
+  align-items: center;
+  left: 18.5%;
+  top: 29.1%;
+  position: absolute;
+  color: white;
+  font-size: 65px;
+  letter-spacing: 2px!important;
+  font-weight: bold!important;
+}
+.spn1{
+  top: 37%;
+  left:33%;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-size: 30px;
+}
+.ya2{
+  display: flex;
+  flex-direction: row;
+  height: 460px;
+  }   
+.satal1{
+  background-color: #16151a;
+  flex: 1;
+  width: 50%;
+}     
+/* jilbert pic */
+.satal2{
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  
+}
+.satal2 img{
+  height: 100%;
+}
+.hash{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+.hash1{
+  margin-top: 5%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+.ya3{
+  height: 570px;
+  display: flex;
+  flex-direction: row;
+}  
+/* annie pic */
+.satal3{
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  background-image: url(annie.jpg);
+  object-fit: cover;
+  border-radius: 25px;
+  overflow: hidden;
+  
+}
+.satal4{
+  background-color: #16151a;
+  flex: 1;
+  width: 50%;
+  padding: 1.2em;
+}
+.satal4>*{
+  align-items: center;
+}
+
+.subs{
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.subs .fr{
+  color: white;
+  margin: 0!important;
+  letter-spacing: 1px;
+  font-size: 50px;
+  margin: 3.8% 0!important;
+
+}
+.sb{
+  background-color: black!important;
+  color: white!important;
+  font-size: 30px!important;
+}
+.sb1{
+  color: white!important;
+}
+/* .sb2{
+  text-align: center!important;
+  font-size: 25px!important;
+} */
+
+/* footer */
+.foote{
+  width: 90%;
+  margin-left: 11%;
+}
+.footeadmin{
+  margin-top: 5%;
+  width: 77%;
+  margin-left: 25%;
+}
+
+
+.carda{
+  width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 25%);
+  overflow: hidden;
+  padding: 1% 5%;
+  color: #646771;
+  background-color: #16151a;
+  /* margin-right: 3rem!important;
+  margin-left: 3rem!important; */
+
+}
+.container-fluid mt-5{
+  width: 100%  !important;
+}
+.card {
+  padding: 2% 7%;
+  color: #646771;
+  background-color: #16151a
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+ul>li {
+  padding: 4px
+}
+
+ul>li:hover {
+  color: #957bda;
+  cursor: pointer
+}
+
+hr {
+  border-width: 3px
+}
+
+.social>i {
+  padding: 1%;
+  font-size: 15px
+}
+
+.social>i:hover {
+  color: #957bda;
+  cursor: pointer
+}
+
+.policy>div {
+  padding: 4px
+}
+
+.heading {
+  font-family: 'Titillium Web', sans-serif;
+  color: white
+}
+
+.divider {
+  border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+
+
+/* <iframe width="956" height="538" src="https://www.youtube.com/embed/Hh0m4wnyRgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */

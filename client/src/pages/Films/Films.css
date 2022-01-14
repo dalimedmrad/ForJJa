@@ -1,0 +1,99 @@
+.liste{
+    width: 100%;
+    margin-left: 0%!important;
+    margin-top: 0!important;
+    padding-top: 5%;
+    background-color: rgb(29, 28, 28);
+}
+
+.filmsadmin{
+    width: 73%;
+}
+.categoriesadmin{
+    width: 27%;
+    position: fixed;
+    z-index: 1;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto!important;    
+}
+.mapingadmin{
+    margin-left: 55%;
+    padding-top: 5%;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.films{
+    width: 87%;
+}
+.maping{
+    margin-left: 16%;
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories{
+    padding-left: 2%;
+    margin-bottom: 2%!important;
+    width: 13%; 
+    color: #9ca3af;
+    position: fixed;
+    z-index: 1;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto!important;
+}
+/* Button{
+    width: 110px;
+} */
+.search{
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search input{
+    margin-left: 10%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 180%;
+   
+}
+.searchadmin{
+    margin-left: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* footer */
+.foote{
+    width: 90.5%;
+    margin-left: 11.5%;
+    
+  }
+  .footeadmin{
+    width: 76.9%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  
+  .carda{
+    border: 2px solid white;
+    width:100%;
+    border-radius: 13px;
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 25%);
+    overflow: hidden;
+    padding: 1% 5%;
+    color: #646771;
+    background-color: #16151a;
+  }
+ 
